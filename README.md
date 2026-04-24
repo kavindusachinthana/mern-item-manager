@@ -1,8 +1,8 @@
 backend
 +npm init -y
-+npm install express mongoose cors dotenv
-+npm install nodemon --save-dev
-create .env MONGO_URI= 0.0.0.0/0 PORT=5000
+/npm install express mongoose cors dotenv
+/npm install nodemon --save-dev
+/create .env MONGO_URI= 0.0.0.0/0 PORT=5000
 	"start": "node server.js",
   	"dev": "nodemon server.js"
     
