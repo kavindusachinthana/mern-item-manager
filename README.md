@@ -24,3 +24,11 @@ advanced-Environment Variables-MONGODB_URI = your connection string/PORT = 5000
 frontend deploy-Vercel/Framework Preset: Vite/Build Command: npm run build
 /Output Directory: dist/environment variable vitapi-url=render url
 netlify same.frontend/dist-- functiondirectory-frntend/
+
+this is to when using a another account to push 
+git remote set-url origin https://github.com/IT24104076/wmtLab.git
+git remote -v
+git push -u origin main
+
+That folder is probably another Git repo inside your repo. Remove its hidden .git folder:
+rmdir /s /q "frontend\lab test\.git"
